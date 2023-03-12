@@ -132,3 +132,18 @@ priority : inline> internal>external
 
 if we add multiple rule to the same leemnt then it will be hard to guess which one gonna overwrite
 so for this Specificity rules comes handy
+
+    !importand > inline css > ID > Class > tag selector
+
+# Box Model IN CSS
+
+according to box model concpet every element on a page
+is a rectangle box and may have width , height , padding,
+borders and margins .
+
+content in the main part of the box and height , width
+are said to be measurment of inner content .
+
+on the top of content there is padding , on the top of padding there is border ,on the top of border there is margin
+
+#
