@@ -146,4 +146,35 @@ are said to be measurment of inner content .
 
 on the top of content there is padding , on the top of padding there is border ,on the top of border there is margin
 
-#
+# Colors
+
+-> HexaDecimal #RRGGBB  
+ value of RR,GG,BB varies between 00 to ff
+-> rgb(r,g,b,opacity optional)
+0-255 , optional 0-100
+-> pre defined color in css/html
+140 presents
+
+# font
+
+-> font -family
+-> font-weight
+-> font style
+-> emphasis & importance
+-> How to add external fonts
+
+# Units in CSS
+
+-> Absolute unit
+mm , cm , in , px = (1/96)inch
+-> Percentage unit
+applied on parents
+-> Relative unit
+Relatie to font size
+--> em = relative to parent (multipiles)
+--> rem = relative to root ( root element is html element)
+Related to Document
+-->vw = (1/100) _ width of view port
+->vh = (1/100) _ height of view port
+
+# diff between 1% and 1 vw ?
