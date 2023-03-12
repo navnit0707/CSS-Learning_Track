@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        color: red;
+      }
+
+      div h1 {
+        color: yellow;
+      }
+      div > h2 {
+        color: black;
+      }
+      div ~ h2 {
+        color: pink;
+      }
+      div[lang] {
+        font-weight: bold;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    hello i am universal
+    <div>
+      hello i am div
+      <h1>hello i am h1</h1>
+      <h2>hi i am h2</h2>
+    </div>
+    <h2>hi i am not nested to h1</h2>
+    <div lang="en-us en-gb en-au en-nz">Hello World!</div>
+  </body>
+</html>
